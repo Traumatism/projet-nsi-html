@@ -1,0 +1,47 @@
+body {
+	text-align: center;
+	color: #1e1e2e;
+	background: #f5c2e7;
+}
+
+.board {
+	/* ajoute une ombre noire transparente décalée avec des bords arrondis*/
+	box-shadow: 10px 10px 2px 2px rgba(0, 0, 0, 0.2);
+	background-color: #eba0ac;
+	border: #f2cdcd solid;
+	border-spacing: 10px;
+	float: right;
+	margin-right: 20%;
+}
+
+.card {
+	text-align: center;
+	color: #1e1e2e;
+	background-color: #f2cdcd;
+	height: 100px;
+	width: 100px;
+	border-radius: 10px; /* Bords arrondis = plus joli */
+}
+
+/* S'execute lorsque l'on passe la souris sur une carte */
+.card:hover {
+	transition: 0.5s; /* Donne une impression de smooth */
+	background-color: #f5e0dc;
+}
+
+#bubble {
+	font-size: 40px;
+}
+
+#title {
+	float: top;
+	font-size: 40px;
+}
+
+#hellokitty {
+	transition: 0.5s;
+	height: 20%;
+	transform: rotate(0deg);
+	float: left;
+	margin-left: 20%;
+}
