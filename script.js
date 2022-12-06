@@ -33,7 +33,8 @@ function card_1() {
 function card_2() {
 	let kitty = document.getElementById("hellokitty");
 
-	sign = "";
+	let sign = "";
+
 	if (kitty.style.transform == "rotate(25deg)") {
 		sign = "-";
 	}
@@ -42,9 +43,9 @@ function card_2() {
 }
 
 function card_3() {
-	var content = "😻 " + prompt() + " 🌸";
-
-	document.getElementById("bubble").innerHTML = generateBubble(content);
+	document.getElementById("bubble").innerHTML = generateBubble(
+		"😻 " + prompt() + " 🌸"
+	);
 }
 
 function card_4() {
@@ -68,7 +69,7 @@ function card_8() {
 
 	title.innerHTML = `
 
-Page réalisée avec amour par Victor Robert <3
+Page réalisée avec amour par Victor R. <3
 
     `;
 
